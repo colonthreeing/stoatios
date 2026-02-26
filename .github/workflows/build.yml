@@ -4,7 +4,7 @@ on: [workflow_dispatch]
 
 jobs:
   build_unsigned:
-    runs-on: macos-14
+    runs-on: macos-latest
     steps:
       - name: check Xcode version
         run: /usr/bin/xcodebuild -version

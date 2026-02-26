@@ -6,11 +6,6 @@ jobs:
   build_unsigned:
     runs-on: macos-14
     steps:
-
-      #Select your required version
-      - name: Select Xcode 15.1
-        run: sudo xcode-select -s /Applications/Xcode_15.1.app/Contents/Developer
-
       - name: check Xcode version
         run: /usr/bin/xcodebuild -version
 

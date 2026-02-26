@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #  ci_post_xcodebuild.sh.sh
-#  Revolt
+#  Stoat
 #
 #  Created by Angelo on 22/08/2024.
 #
@@ -24,4 +24,4 @@ echo "Authenticate to Sentry"
 ./sentry-cli login --auth-token $SENTRY_AUTH_TOKEN
 
 echo "Uploading dSYM to Sentry"
-./sentry-cli debug-files upload --include-sources -o revolt -p apple-ios $CI_ARCHIVE_PATH --force-foreground
+./sentry-cli debug-files upload --include-sources -o stoat -p apple-ios $CI_ARCHIVE_PATH --force-foreground

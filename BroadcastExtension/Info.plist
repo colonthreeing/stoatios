@@ -12,6 +12,6 @@
 		<string>RPBroadcastProcessModeSampleBuffer</string>
 	</dict>
 	<key>RTCAppGroupIdentifier</key>
-	<string>group.chat.revolt.app</string>
+	<string>group.chat.stoat.app</string>
 </dict>
 </plist>
